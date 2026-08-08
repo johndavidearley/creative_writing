@@ -39,6 +39,7 @@ This manuscript should explore the dramatic landscape of a prestigious space-ser
 - Cadet Iven Marr: Political theory student and Lio's roommate, not selected for the elite cohort and increasingly suspicious of it.
 - Commander Talia Wren: Tactics instructor, former war hero, publicly hard but fair; privately worried the academy is becoming a factory for useful zealots.
 - Admiral Cael Orison: Superintendent of the academy and patron of Black Banner, convinced the Union's civilian government is too slow to survive the next war.
+- Admiral Serin Kade: Retired fleet admiral and Black Banner patron, drawn to officers who can act before institutions agree.
 - Minister Hessa Draik: Civilian defense minister using the academy crisis to test which officers will obey constitutional authority.
 - Director Vale Anik: Polished civilian "ethics lecturer" who is actually a covert-service selector evaluating which cadets can lie without enjoying it.
 

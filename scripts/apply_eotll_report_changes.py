@@ -1,13 +1,13 @@
 from __future__ import annotations
 
+import argparse
 import copy
 from pathlib import Path
 from zipfile import ZIP_DEFLATED, ZipFile
 from xml.etree import ElementTree as ET
 
-SRC = Path("/mnt/c/Users/johnd/Downloads/EOTLL.docx")
-OUT_DOCX = Path("/tmp/EOTLL.report-revision.docx")
-OUT_MD = Path("manuscripts/EOTLL.report-revision.md")
+DEFAULT_OUT_DOCX = Path("/tmp/EOTLL.report-revision.docx")
+DEFAULT_OUT_MD = Path("manuscripts/EOTLL.report-revision.md")
 
 NS_W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 W = f"{{{NS_W}}}"
@@ -65,6 +65,13 @@ def replace_span(body: ET.Element, start: ET.Element, end: ET.Element, new_paras
         body.remove(child)
     for offset, p in enumerate(new_paras):
         body.insert(start_idx + offset, p)
+
+
+def find_para(paras: list[ET.Element], prefix: str) -> ET.Element:
+    for p in paras:
+        if para_text(p).startswith(prefix):
+            return p
+    raise ValueError(f"Could not find paragraph starting with: {prefix!r}")
 
 
 PROLOGUE_INSERT = [
@@ -144,9 +151,11 @@ CHAPTER_3_REPLACEMENT = [
 ]
 
 
-def main() -> None:
-    OUT_MD.parent.mkdir(parents=True, exist_ok=True)
-    with ZipFile(SRC, "r") as zin:
+def apply_report_changes(src: Path, out_docx: Path, out_md: Path) -> None:
+    out_md.parent.mkdir(parents=True, exist_ok=True)
+    out_docx.parent.mkdir(parents=True, exist_ok=True)
+
+    with ZipFile(src, "r") as zin:
         document_xml = zin.read("word/document.xml")
         root = ET.fromstring(document_xml)
         body = root.find(W + "body")
@@ -155,23 +164,23 @@ def main() -> None:
 
         paras = nonempty_paras(root)
 
-        prologue_anchor = next(p for p in paras if para_text(p).startswith("For a terrifying, suspended heartbeat"))
-        normal_template = next(p for p in paras if para_text(p).startswith("Twelve minutes. Twelve minutes"))
+        prologue_anchor = find_para(paras, "For a terrifying, suspended heartbeat")
+        normal_template = find_para(paras, "Twelve minutes. Twelve minutes")
         insert_after(body, prologue_anchor, [make_para(normal_template, text) for text in PROLOGUE_INSERT])
 
         paras = nonempty_paras(root)
-        chapter_1_start = next(p for p in paras if para_text(p).startswith("Twelve minutes. Twelve minutes"))
-        chapter_1_end = next(p for p in paras if para_text(p).startswith("Markov stared at the map"))
+        chapter_1_start = find_para(paras, "Twelve minutes. Twelve minutes")
+        chapter_1_end = find_para(paras, "Markov stared at the map")
         replace_span(body, chapter_1_start, chapter_1_end, [make_para(chapter_1_start, text) for text in CHAPTER_1_REPLACEMENT])
 
         paras = nonempty_paras(root)
-        ch3_start = next(p for p in paras if para_text(p).startswith(CHAPTER_3_OLD_START))
-        ch3_end = next(p for p in paras if para_text(p).startswith(CHAPTER_3_OLD_END))
+        ch3_start = find_para(paras, CHAPTER_3_OLD_START)
+        ch3_end = find_para(paras, CHAPTER_3_OLD_END)
         replace_span(body, ch3_start, ch3_end, [make_para(ch3_start, text) for text in CHAPTER_3_REPLACEMENT])
 
         updated_xml = ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
-        with ZipFile(OUT_DOCX, "w", ZIP_DEFLATED) as zout:
+        with ZipFile(out_docx, "w", ZIP_DEFLATED) as zout:
             for item in zin.infolist():
                 data = zin.read(item.filename)
                 if item.filename == "word/document.xml":
@@ -180,8 +189,33 @@ def main() -> None:
 
     from docx_to_markdown import convert_docx_to_markdown
 
-    convert_docx_to_markdown(OUT_DOCX, OUT_MD)
-    print(OUT_MD)
+    convert_docx_to_markdown(out_docx, out_md)
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Apply the story-specific EOTLL report revision pass to a DOCX file."
+    )
+    parser.add_argument("source", type=Path, help="Source EOTLL DOCX file.")
+    parser.add_argument(
+        "--out-docx",
+        type=Path,
+        default=DEFAULT_OUT_DOCX,
+        help=f"Revised DOCX output path. Default: {DEFAULT_OUT_DOCX}",
+    )
+    parser.add_argument(
+        "--out-md",
+        type=Path,
+        default=DEFAULT_OUT_MD,
+        help=f"Markdown export path. Default: {DEFAULT_OUT_MD}",
+    )
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    apply_report_changes(args.source, args.out_docx, args.out_md)
+    print(args.out_md)
 
 
 if __name__ == "__main__":

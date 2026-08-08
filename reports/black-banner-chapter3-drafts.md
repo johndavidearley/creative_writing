@@ -6,7 +6,7 @@
 
 The transfer order arrived through official academic channels, which was the first thing about Black Banner that genuinely frightened Lio.
 
-The black envelope had been theater. The dead scanner, the basement, Anik's folders full of other people's ruin — all of it had the deniable texture of things that could be made never to have happened. But the document glowing on his slate at 0600 was real academy paperwork. Routing codes. Registrar seal. Wren's authorization string, valid and verifiable.
+The black envelope had been theater. The dead scanner, the basement, Anik's folders full of other people's ruin: all of it had the deniable texture of things that could be made never to have happened. But the document glowing on his slate at 0600 was real academy paperwork. Routing codes. Registrar seal. Wren's authorization string, valid and verifiable.
 
 CADET ARDEN, L.
 
@@ -34,7 +34,7 @@ Iven's eyes came up. Iven had a way of looking at people that suggested he was c
 
 "Integrated with what?"
 
-Speak of this to no one. The rule had been easy to keep for eleven days because there had been nothing to speak of. Now the nothing had a course code, and Iven Marr — who had once filed a formal correction to the academy's own founding charter display — was going to look under it.
+Speak of this to no one. The rule had been easy to keep for eleven days because there had been nothing to speak of. Now the nothing had a course code, and Iven Marr, who had once filed a formal correction to the academy's own founding charter display, was going to look under it.
 
 Lio thought of the folder in the basement. Unauthorized access to restricted constitutional crisis archives. Use of a false instructor credential. If Iven started pulling at Black Banner's paperwork, he would do it the way he did everything: thoroughly, on the record, and with his own access history trailing behind him like blood in water.
 
@@ -54,7 +54,7 @@ Lio spent the walk to Sublevel Nine deciding that the conversation had gone well
 
 The room had changed.
 
-The round table was gone. In its place: a full operations floor in miniature — plot table, six crew stations, a command ring with real fleet-standard interfaces instead of the pedagogical versions upstairs that flashed helpful amber when you were about to do something interesting. The coffee service had survived the renovation. Someone had used it.
+The round table was gone. In its place: a full operations floor in miniature: plot table, six crew stations, a command ring with real fleet-standard interfaces instead of the pedagogical versions upstairs that flashed helpful amber when you were about to do something interesting. The coffee service had survived the renovation. Someone had used it.
 
 "You're late," Rook said, from the depth of a crew couch. "By forty seconds. I know because Vale here has been narrating."
 
@@ -76,11 +76,11 @@ The door opened before Quell could decide whether to be reassured. Commander Wre
 
 "Stations," Wren said.
 
-They moved. Lio noticed that they moved — no shuffling, no glancing, the four of them distributing themselves around the plot table as if they'd drilled it. Eleven days ago they had been strangers who distrusted each other in different dialects.
+They moved. Lio noticed how: no shuffling, no glancing. The four of them distributed themselves around the plot table as if they'd drilled it. Eleven days ago they had been strangers who distrusted each other in different dialects.
 
-"Today is not an ethics problem," Wren said. "Today you work." She touched the slate, and the plot table bloomed with a system map — a mid-transit relief scenario, a civilian station bleeding atmosphere, a support convoy nine hours out, and a threat picture that made everyone lean in at the same time.
+"Today is not an ethics problem," Wren said. "Today you work." She touched the slate, and the plot table bloomed with a system map: a mid-transit relief scenario, a civilian station bleeding atmosphere, a support convoy nine hours out, and a threat picture that made everyone lean in at the same time.
 
-"Cadet Arden holds the command ring," Wren said. "Sato, small craft. Vale, systems and traffic. Quell, you are the lawful authority on scene — station governor's office. The exercise ends when the station's population is safe, dead, or you are relieved for cause."
+"Cadet Arden holds the command ring," Wren said. "Sato, small craft. Vale, systems and traffic. Quell, you are the lawful authority on scene: station governor's office. The exercise ends when the station's population is safe, dead, or you are relieved for cause."
 
 Rook cracked his knuckles. "And the enemy?"
 
@@ -94,7 +94,7 @@ Somewhere around the moment Quell, playing the governor, refused his evacuation 
 
 "Your order exceeds your authority," she said, flat and formal across the plot table. "Station sovereignty is intact. Convince me or route around me, Commander, but you don't get to pretend I'm not here."
 
-The old Lio — the Lio of eleven days ago — would have heard the room deciding he'd been put in his place. Instead he heard the problem. She wasn't blocking him. She was making him better, and she was doing it because she assumed he could take it.
+The old Lio, the Lio of eleven days ago, would have heard the room deciding he'd been put in his place. Instead he heard the problem. She wasn't blocking him. She was making him better, and she was doing it because she assumed he could take it.
 
 "Governor," he said. "Your station has ninety minutes of rotation left and my convoy has berths for sixty percent of your population. I can't overrule you. But I can tell you which sixty percent boards if you make me choose fast instead of well."
 
@@ -102,7 +102,7 @@ The pause that followed was Quell thinking, actually thinking, behind the govern
 
 "Proposal accepted," she said. "Boarding priority is mine. Flight plan is yours."
 
-At the end, the plot table showed a station empty and dead and a convoy heavy with everyone who had been aboard it. FATALITIES: 41. Lio stared at the number and waited for the familiar amphitheater arithmetic — the muttering, the Vesta logic, the room deciding what his answer proved about where he came from.
+At the end, the plot table showed a station empty and dead and a convoy heavy with everyone who had been aboard it. FATALITIES: 41. Lio stared at the number and waited for the familiar amphitheater arithmetic: the muttering, the Vesta logic, the room deciding what his answer proved about where he came from.
 
 "Forty-one," Wren said. "Fleet solved this scenario in seventy-three, the year it happened."
 
@@ -124,7 +124,7 @@ Wren dismissed them. At the door, Lio looked back once. She was standing over th
 
 ---
 
-They rode the service lift up together, the four of them, and nobody spoke, and it was the good kind of silence — the kind Lio had watched flight crews share in the mess for three years without ever once being inside it.
+They rode the service lift up together, the four of them, and nobody spoke. It was the good kind of silence, the kind Lio had watched flight crews share in the mess for three years without ever once being inside it.
 
 Rook broke it at Sublevel Two. "Same time tomorrow?"
 
@@ -162,11 +162,11 @@ And under all of it, small and ugly as a splinter: six hours of being needed, an
 
 Iven leaned back slowly in the desk chair. Iven Marr, who wrote essays on civilian supremacy at two in the morning for no audience but his own conscience, who believed rules were load-bearing and checked them for rot because he loved the building. Lio watched him arrive, with terrible inevitability, at exactly the wrong conclusion.
 
-"You're in something," Iven said quietly. "And you can't talk about it. That's fine. That's — genuinely fine, Lio, half of command track ends up under some nondisclosure eventually. But if the paperwork is this bad, then somebody built it badly on purpose, which means the secrecy isn't protecting a program, it's protecting a person, and cadets under bad paperwork are the ones who get spent when it surfaces. Let me help. I'm good at this. I won't touch you — I'll go through the records office, formal inquiry, my name on it. Clean."
+"You're in something," Iven said quietly. "And you can't talk about it. That's fine. Genuinely fine, Lio. Half of command track ends up under some nondisclosure eventually. But if the paperwork is this bad, then somebody built it badly on purpose, which means the secrecy isn't protecting a program, it's protecting a person, and cadets under bad paperwork are the ones who get spent when it surfaces. Let me help. I'm good at this. I won't touch you. I'll go through the records office, formal inquiry, my name on it. Clean."
 
 His name on it.
 
-The formal inquiry would take nine days to route. His access history would be reviewed within one. And somewhere in a basement, a man in an unmemorable brown suit already had a folder that would end Iven Marr's career in a single referral — a folder that existed, Lio understood now with real nausea, precisely for this. Not to test what Lio would do with a friend's violation. To be there, later, whenever the friend became inconvenient.
+The formal inquiry would take nine days to route. His access history would be reviewed within one. And somewhere in a basement, a man in an unmemorable brown suit already had a folder that would end Iven Marr's career in a single referral, a folder that existed, Lio understood now with real nausea, precisely for this. Not to test what Lio would do with a friend's violation. To be there, later, whenever the friend became inconvenient.
 
 They hadn't been assessing his ethics at all. They'd been showing him the hostage.
 
@@ -176,7 +176,7 @@ They hadn't been assessing his ethics at all. They'd been showing him the hostag
 
 "There's nothing to find. It's a superintendent's pet cohort with lazy paperwork, and if you file an inquiry, the only thing you'll accomplish is telling every officer who reviews it that Iven Marr thinks his roommate getting picked over him is a constitutional crisis."
 
-He watched it land. He had aimed it to land — at the one soft place Iven kept behind the citations, the fear of being the cadet who footnoted other people's careers because he didn't have one of his own. It was the kind of shot you could only make with three years of friendship for a targeting system.
+He watched it land. He had aimed it to land at the one soft place Iven kept behind the citations, the fear of being the cadet who footnoted other people's careers because he didn't have one of his own. It was the kind of shot you could only make with three years of friendship for a targeting system.
 
 Iven's face didn't crumple. It did something quieter and much worse. It became polite.
 
@@ -188,7 +188,7 @@ Lio sat on the edge of his bunk in the empty room where, eleven days ago, he had
 
 He had protected Iven. He was almost sure he had protected Iven.
 
-He had also just, without one order being given, done Anik's work for him — cut the last line between himself and anyone outside the program, and been paid for it in belonging.
+He had also just, without one order being given, done Anik's work for him: cut the last line between himself and anyone outside the program, and been paid for it in belonging.
 
 All his life the academy had made him lonely in a crowd, and he had survived it by deciding loneliness was evidence of his own clear sight. Black Banner had studied that survival strategy, priced it, and made its offer: not friendship, which he would have distrusted, but usefulness, which he had wanted so long he'd stopped noticing the wanting.
 
